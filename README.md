@@ -96,13 +96,11 @@ In order to use the playbook, you will need to have an control node already conf
 SSH into the control node and follow the steps below:
 - Copy the FIlebeat-configuration.yml file to ELK VM.
 - Update the hosts file to include webservers 10.0.0.5, 10.0.0.6, 10.0.07
-- Run the playbook, and navigate to the Jump_Box to check that the installation worked as expected.
+- Run the playbook, and navigate to the Kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-- Filebeat is installed on the ELK server
-- _Which URL do you navigate to in order to check that the ELK server is running?
-- http://40.114.112.73:5601/app/kibana
+Answer the following questions to fill in the blanks:_
+- Which file is the playbook? Where do you copy it? YAML files are playbooks that can be run with Ansible. Playbooks are copied into a container where Ansible is installed to be deployed.
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? The Hosts file and Filebeat is installed on the ELK server
+- Which URL do you navigate to in order to check that the ELK server is running? http://40.114.112.73:5601/app/kibana
 
 
