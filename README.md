@@ -88,7 +88,7 @@ We have installed the following Beats on these machines:
 - filebeat-7.4.0-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc. Filebeat is used to send your log files to kibana. Filebeat monitors and collects log events on specificed servers.
+- Filebeat is used to send your log files to kibana. Filebeat monitors and collects log events on specificed servers.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an control node already configured. Assuming you have such a control node provisioned: 
